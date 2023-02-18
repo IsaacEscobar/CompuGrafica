@@ -1,1 +1,2 @@
 C:\Users\isake\Desktop\Ingenieria\Compu Grafica\T\Debug\TemplateProject.exe
+C:\Users\isake\Desktop\Ingenieria\Compu Grafica\CompuGrafica\OGL\Cola\Debug\TemplateProject.exe

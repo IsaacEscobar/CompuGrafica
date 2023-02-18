@@ -42,7 +42,7 @@ public:
       glPushMatrix();
       if (shader) shader->begin();
 
-        /*glPushMatrix();
+        glPushMatrix();
             glutSolidSphere(0.4, 20, 10);
         glPopMatrix();
 
@@ -51,44 +51,7 @@ public:
             glutSolidSphere(0.3, 20, 10);
         glPopMatrix();
 
-        miCola->DibujarCola(5, 0.4, 0, 0);*/
-
-         //glRotatef(timer010*360, 0.5, 1.0f, 0.1f);
-         glTranslatef(0,0,-5);
-
-         glPushMatrix();
-         glutSolidSphere(0.5,30,10);
-         glPopMatrix();
-
-         glPushMatrix();
-         glRotatef(45,0,0,1);
-         glTranslatef(1.5,0,0);
-         glRotatef(45, 0, 0, 1);
-         glutSolidTeapot(0.5);
-         glPopMatrix();
-
-         glPushMatrix();
-         glScalef(2, 2, 2);
-         glTranslatef(-1.5, 0, 0);
-         glutWireTeapot(0.5);
-         glPopMatrix();
-
-         glPushMatrix();
-         glTranslatef(0, 1.5, 0);
-         glBegin(GL_TRIANGLES);
-             glVertex3f(-1, 0, 0);
-             glVertex3f(0, 1, 0);
-             glVertex3f(1, 0, 0);
-         glEnd();
-         miTriangulo->DibujarTriangulos(0, 1.5, 0);
-         glPopMatrix();
-
-         glPushMatrix();
-         glTranslatef(0, -1.5, 0);
-         glutSolidCube(0.5);
-         glPopMatrix();
-
-         miCola->DibujarCola(4, 0, -2, 0);
+        miCola->DibujarCola(5, 0.4, 0, 0);
 
       if (shader) shader->end();
 
