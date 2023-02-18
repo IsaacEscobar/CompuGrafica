@@ -1,0 +1,4 @@
+﻿cl : línea de comandos  warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
+  main.cpp
+Cola.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/SAFESEH'
+  TemplateProject.vcxproj -> C:\Users\isake\Desktop\Ingenieria\Compu Grafica\T\Debug\TemplateProject.exe
